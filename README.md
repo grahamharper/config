@@ -1,6 +1,6 @@
 # Config
 
-Config is a basic checklist I follow to set up a new Mac's development environment. It's based on [Mark Otto's config](https://github.com/mdo/config).
+Config is a basic checklist I follow to set up a new Mac's development environment. It's based on [Mark Otto's config](https://github.com/mdo/config). It's a WIP.
 
 ## Checklist
 
