@@ -26,3 +26,19 @@ Config is a basic checklist I follow to set up a new Mac's development environme
  * Enter a Personal Access Token with the `gist` scope
  * Copy gist id from your [gists](https://gist.github.com/grahamharper/) to Sync Settings configuration
  * Run `sync-settings:restore` from the command palette
+
+### 5. Map a key to #
+Create a DefaultKeyBinding.dict file here:
+
+```
+~/Library/KeyBindings/DefaultKeyBinding.dict
+```
+
+Open it and add:
+```
+{
+  /* Map # to § key*/
+  "§" = ("insertText:", "#");
+}
+```
+Save and restart your Mac.
