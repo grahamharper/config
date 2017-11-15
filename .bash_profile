@@ -9,11 +9,10 @@ parse_git_branch() {
 #
 # Source: kirsle.net/wizards/ps1.html
 export PS1="\n\[$(tput bold)\]\[$(tput setaf 5)\]➜ \[$(tput setaf 6)\]\w\[$(tput setaf 3)\]\$(parse_git_branch) \[$(tput sgr0)\]"
+
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 export NVM_DIR=~/.nvm
-
-## Node
 source $(brew --prefix nvm)/nvm.sh
 nvm use v6
 
@@ -30,7 +29,7 @@ alias master='git checkout master'
 alias ghp='git checkout gh-pages'
 
 ## Fix Duplicates in "Open with..."
-alias fixow='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.$
+alias fixow='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user ; killall Dock ; echo "Open With has been rebuilt, Dock will relaunch"'
 
 # Add rbenv (Ruby version manager)
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
