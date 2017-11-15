@@ -10,7 +10,9 @@ Config is a basic checklist I follow to set up a new Mac's development environme
 
 ### 2. Download dependancies
   * Install [Homebrew](http://brew.sh)
-  * Install Node `brew install node`
+  * Install Node
+    1. Install NVM `brew install nvm`.
+    2. Install Node `nvm install v6`.
 
 ### 3. Secure Git(Hub) access
 
