@@ -16,5 +16,11 @@ Config is a basic checklist I follow to set up a new Mac's development environme
 
 ### 3. Secure Git(Hub) access
 
-  - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
-  - [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled
+  * [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
+  * [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled
+
+### 4. Install Atom
+ * [Download and install Atom](https://atom.io/)
+ * Install Sync Settings package `apm install sync-settings`
+ * Copy gist id from your [gists](https://gist.github.com/grahamharper/) to Sync Settings configuration
+ * Run `apm install --packages-file packages.list`
