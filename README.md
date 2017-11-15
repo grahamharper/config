@@ -23,5 +23,6 @@ Config is a basic checklist I follow to set up a new Mac's development environme
  * [Download and install Atom](https://atom.io/)
  * Run the Atom > Install Shell Commands menu option 
  * Install [Sync Settings package](https://atom.io/packages/sync-settings) `apm install sync-settings`
+ * Enter a Personal Access Token with the `gist` scope
  * Copy gist id from your [gists](https://gist.github.com/grahamharper/) to Sync Settings configuration
- * Run `apm install --packages-file packages.list`
+ * Run `sync-settings:restore` from the command palette
