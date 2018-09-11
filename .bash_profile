@@ -14,7 +14,7 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
-nvm use v6
+nvm use v8
 
 ## Shortcuts
 alias ll='ls -al'
