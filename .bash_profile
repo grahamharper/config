@@ -14,7 +14,7 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
-nvm use v8
+nvm use --lts
 
 ## Shortcuts
 alias ll='ls -al'
@@ -26,6 +26,7 @@ alias gs='git status'
 
 ## Git branch switching
 alias master='git checkout master'
+alias develop='git checkout develop'
 alias ghp='git checkout gh-pages'
 
 ## Fix Duplicates in "Open with..."
